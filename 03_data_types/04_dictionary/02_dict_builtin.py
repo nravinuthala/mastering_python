@@ -25,6 +25,9 @@ player_dictionalry = {
 # print(player_dictionalry)
 # print(player_dictionalry_copy)
 
-dummy_keys = ["first", "second", "third"]
-test1 = dict.fromkeys(dummy_keys, "hi")
-print(test1)
+# dummy_keys = ["first", "second", "third"]
+# test1 = dict.fromkeys(dummy_keys, "hi")
+# print(test1)
+
+# print(player_dictionalry["city"])
+print(player_dictionalry.get("city"))

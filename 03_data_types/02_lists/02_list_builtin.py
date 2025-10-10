@@ -15,6 +15,7 @@ list_ops2 = ['remove', 'reverse', 'sort']
 # list1 = [1,2,3,4,1,1,1,2,2,1,1]
 # print(list1.count(1))
 
+# print(list_ops1)
 # list_ops1.extend(list_ops2)
 # print(list_ops1)
 # print(list_ops2)
@@ -47,6 +48,9 @@ list_ops2 = ['remove', 'reverse', 'sort']
 # # player_details.reverse()
 # # print(player_details)
 
+# lst1 = ["Nagaraj", 0, 9.0]
+# print(lst1)
+# lst1.sort()
 # player_details.sort()
 # print(player_details)
 
@@ -55,8 +59,8 @@ list_ops2 = ['remove', 'reverse', 'sort']
 
 # num_list = [34, 78, 23, 67, 9]
 # print(num_list)
+# # num_list.sort()
 # num_list.sort(reverse=True)
-
 # print(num_list)
 
 # colors = ["red", "blue", "green"]
@@ -72,12 +76,19 @@ list_ops2 = ['remove', 'reverse', 'sort']
 
 student = ["SB", 11, "Pinegrove College", [34, 67, 45]]
 
-# student_copy = student.copy() # shallow copy
+student_copy = student.copy() # shallow copy
 # print(student)
 # print(student_copy)
 
-# student[3][1] = 100
-# # print(student[3][1])
+# student[1] = 12
+# # student_copy[0] = "NR"
+# # print(student)
+# # print(student_copy)
+
+# print(student[-1][-1])
+
+# student[-1][-1] = 100
+# print(student[-1][-1])
 # print(student)
 # print(student_copy)
 
