@@ -78,9 +78,9 @@
 # calculate_average_marks(90, 87, 56)
 # calculate_average_marks(90, 87)
 
-# def calculate_circumference(side1, side2, side3):
-#     circ = side1 + side2 + side3
-#     print(circ)
+def calculate_circumference(side1, side2, side3):
+    circ = side1 + side2 + side3
+    print(circ)
 
 # def calculate_circumference(*sides):
 #     circ = sum(sides)
@@ -91,6 +91,6 @@
 # calculate_circumference(45, 67, 34, 45)
 
 # print("hi")
-print("hi","hello", sep="/", end=" | ")
-print(1 , end=" | ")
-print(2)
+# print("hi","hello", sep="/", end=" | ")
+# print(1 , end=" | ")
+# print(2)
