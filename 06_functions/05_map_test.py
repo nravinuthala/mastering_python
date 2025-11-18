@@ -17,7 +17,7 @@ print(square_the_number(5))
 # for i in numbers:
 #     squared_numbers.append(square_number(i))
 
-squared_numbers = map(square_the_number, numbers)
-squared_numbers_list = list(squared_numbers)
+squared_numbers_map = map(square_the_number, numbers)
+squared_numbers_list = list(squared_numbers_map)
 
 print(squared_numbers_list)
