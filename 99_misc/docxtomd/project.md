@@ -267,7 +267,7 @@ alt="A graph showing different types of candlesticks AI-generated content may be
 style="width:3.16611in;height:1.94377in"
 alt="A screenshot of a graph AI-generated content may be incorrect." /> | <img src="project_media/media/image18.png"
 style="width:3.7636in;height:1.89279in" /> |
-|----|----|
+<!-- |----|----| -->
 
 <img src="project_media/media/image19.png"
 style="width:4.90421in;height:2.79317in"
