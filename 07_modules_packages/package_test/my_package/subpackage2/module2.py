@@ -1,0 +1,1 @@
+print("Hello from module 2 subpackage 2")
