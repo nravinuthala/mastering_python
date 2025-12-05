@@ -15,7 +15,7 @@ def convert_docx_to_md(docx_path):
         to="gfm",
         format="docx",
         outputfile=md_output,
-        extra_args=[f"--extract-media={media_dir}"]
+        extra_args=[f"--extract-media={media_dir}", "--reference-links", "--strip-comments", "--wrap=none"]
     )
     print(f"Converted: {docx_path} → {md_output}")
     return md_output, media_dir
