@@ -72,9 +72,9 @@ mobile2 = "012345678"
 
 
 #functions that return multiple values
-def calculate_average(marks):
-    total = sum(marks)
-    average = total/ len(marks)
+def calculate_average(marks1):
+    total = sum(marks1)
+    average = total/ len(marks1)
     return total, average
 
 marks = [30, 40, 50, 60, 70]
@@ -85,6 +85,18 @@ ret_vals = calculate_average(marks)
 print(ret_vals)
 
 # functions with dynamic number of arguments
+
+
+# Write a function which accepts a student name and his marks in a specific subject and displays grade
+
+# def show_grade(name, marks):
+#     # logic
+#     if marks > 60:
+#         grade = 'A'
+#     elif marks > 50 and marks < 60:
+
+
+
 
 
 
